@@ -80,8 +80,8 @@ jQuery._farbtastic = function (container, callback) {
     return this;
   }
   fb.updateValue = function (event) {
-    console.log("Test:" + this.value);
-    console.log("FB:" + fb.color);
+    log("Test:" + this.value);
+    log("FB:" + fb.color);
     if (this.value && this.value != fb.color) {
       fb.setColor(this.value);
     }
