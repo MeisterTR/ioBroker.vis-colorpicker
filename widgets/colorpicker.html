@@ -693,6 +693,10 @@
         },
         huepickerct: function (el, data) {
             data = data._data ? JSON.parse(JSON.stringify(data._data)) : data;
+		console.log(JSON.stringify(data))
+		console.log(JSON.stringify(vis.states[ct_id + '.val'])))
+		console.log(JSON.stringify(vis.states[ct_id])))
+		
             data.transitionTime = parseInt(data.transitionTime) || 0;
             var ctMin = 2000;
             var ctMax = 6500;
